@@ -1,6 +1,3 @@
-
-
-```markdown
 # 🤖 AI Crypto Trading Dashboard (Powered by IO.net Intelligence)
 
 A real-time crypto market analytics dashboard that combines:
@@ -10,19 +7,6 @@ A real-time crypto market analytics dashboard that combines:
 - **Interactive trading visualization with Streamlit + Plotly**
 
 This dashboard helps traders quickly evaluate market trends, identify potential entry signals, and receive AI-driven trade commentary in real time.
-
----
-
-## 📸 Screenshots
-
-### 🏠 Dashboard Overview
-![Dashboard](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/dashboard.png)
-
-### 📈 Candlestick + VWAP Buy Signal Chart
-![Chart](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/chart.png)
-
-### 🤖 AI Trading Analysis Panel
-![Analysis](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/analysis.png)
 
 ---
 
@@ -43,16 +27,13 @@ This dashboard helps traders quickly evaluate market trends, identify potential 
 
 Supports any model available in your **IO.net Intelligence** account:
 
-```
-
-deepseek-ai/DeepSeek-R1-0528
-meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
-Qwen/Qwen3-Next-80B-A3B-Instruct
-mistralai/Mistral-Large-Instruct-2411
-LLM360/K2-Think
-... and more
-
-````
+| 🧠 Model | 💼 Source | 📝 Purpose |
+|--------|---------|---------|
+| DeepSeek-R1-0528 | deepseek-ai | Advanced Chain-of-Thought Reasoning |
+| Llama-4 Maverick 17B FP8 | meta-llama | High-Performance Trading Insight |
+| Qwen3-Next 80B A3B | Qwen | Superior Analytical Breakdown |
+| Mistral-Large-2411 | mistralai | Fast Balanced Reasoning |
+| K2-Think | LLM360 | Structured Logical Thought |
 
 Modify `models.txt` to add or remove models.
 
@@ -62,39 +43,38 @@ Modify `models.txt` to add or remove models.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-trading-dashboard.git
-cd ai-trading-dashboard
-````
+git clone git@github.com:xxivk/ionet-ai-trader-dashboard.git
+cd ionet-ai-trader-dashboard
+```
 
 ### 2️⃣ Install dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add your `.env` file
 
-Create a `.env` file in the project directory:
-
-```
+### 3️⃣ Add your .env file
+```bash
 IOINTELLIGENCE_API_KEY=your_io_intelligence_key_here
 ```
 
-> **Do NOT expose or commit your `.env` file.**
-
 ### 4️⃣ Run the dashboard
-
 ```bash
 streamlit run app.py
 ```
+### Open in your browser:
 
-Open in your browser:
-
-```
+```bash
 http://localhost:8501
 ```
 
----
+
+
+
+
+
+
+
 
 ## 📡 How It Works
 
@@ -115,7 +95,7 @@ Binance → OHLCV Data → VWAP + Candle Strength
 A **BUY** signal is triggered when:
 
 * Price **closes above VWAP**
-* Candle is **bullish and strong** relative to previous highs
+* Candle is **bullish and strong** relative to previous highs**
 * VWAP deviation is **between +0.25% and +1.50%**
 
 This aims to capture **trend continuation momentum**.
