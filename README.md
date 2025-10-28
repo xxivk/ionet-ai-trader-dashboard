@@ -21,7 +21,6 @@ This dashboard helps traders quickly evaluate market trends, identify potential 
 | 🧩 Clean Streamlit UI | Simple, fast, mobile-ready dashboard |
 | 🔐 API Keys Stay Local | Your API keys remain securely in `.env` |
 
----
 
 ## 🧠 AI Model Support
 
