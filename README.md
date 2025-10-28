@@ -9,7 +9,6 @@ A real-time crypto market analytics dashboard that combines:
 
 This dashboard helps traders quickly evaluate market trends, identify potential entry signals, and receive AI-driven trade commentary in real time.
 
----
 
 ## 🚀 Features
 
