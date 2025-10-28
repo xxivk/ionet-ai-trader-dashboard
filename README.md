@@ -139,7 +139,17 @@ If this project helped you:
 
 ---
 
-### Built by **Saad** ❤️ for the **IO Community** 💛
+
+## ⚠️ Disclaimer
+
+This dashboard is **not financial advice**.
+
+The included trading logic is a **simple, experimental strategy** based on **VWAP and basic volume profile behavior**.  
+The parameters and thresholds are **not optimized** and are provided **for educational and demonstration purposes only** — mainly to explore how **AI models can interpret market context** and assist with reasoning.
+
+You should not use this tool to make real financial decisions.  
+Always perform **your own research**, manage risk, and **trade responsibly**.
+
 
 
 
@@ -155,4 +165,4 @@ If this project helped you:
 ### 🤖 AI Trading Analysis Panel
 ![Analysis](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/analysis.png)
 
-
+### Built by **Saad** ❤️ for the **IO Community** 💛
