@@ -43,16 +43,6 @@ LLM360/K2-Think
 Add or remove models in `models.txt`.
 
 ---
-## 📸 Screenshots
-
-### Dashboard Overview
-<img src="assets/dashboard.png" width="850">
-
-### AI Trading Analysis Panel
-<img src="assets/analysis.png" width="850">
-
-### Candlestick + VWAP Buy Signal Chart
-<img src="assets/chart.png" width="850">
 
 ## 📦 Installation
 
