@@ -35,7 +35,7 @@ Supports any model available in your **IO.net Intelligence** account:
 | Mistral-Large-2411 | mistralai | Fast Balanced Reasoning |
 | K2-Think | LLM360 | Structured Logical Thought |
 
-Modify `models.txt` to add or remove models.
+and there is more in io.net !, Modify `models.txt` to add or remove models.
 
 ---
 
