@@ -27,7 +27,7 @@ This dashboard helps traders quickly evaluate market trends, identify potential 
 
 Supports any model available in your **IO.net Intelligence account**, including:
 
-```
+````
 
 deepseek-ai/DeepSeek-R1-0528
 meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
