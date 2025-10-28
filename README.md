@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🤖 AI Crypto Trading Dashboard (Powered by IO.net Intelligence)
 
@@ -149,4 +147,3 @@ If this project helps you — show some love:
 Built by Saad ❤️ for the IO Community 💛
 
 
-```
