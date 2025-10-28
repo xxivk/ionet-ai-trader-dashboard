@@ -140,3 +140,19 @@ If this project helped you:
 ---
 
 ### Built by **Saad** ❤️ for the **IO Community** 💛
+
+
+
+
+## 📸 Screenshots
+
+### 🏠 Dashboard Overview
+![Dashboard](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/dashboard.png)
+
+### 📈 Candlestick + VWAP Buy Signal Chart
+![Chart](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/chart.png)
+
+### 🤖 AI Trading Analysis Panel
+![Analysis](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/analysis.png)
+
+
