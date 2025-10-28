@@ -1,0 +1,8 @@
+openai
+python-dotenv
+iointel
+ccxt
+pandas
+ta
+python-binance
+streamlit plotly
