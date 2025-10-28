@@ -16,13 +16,13 @@ This dashboard helps traders quickly evaluate market trends, identify potential 
 ## 📸 Screenshots
 
 ### 🏠 Dashboard Overview
-<img src="assets/dashboard.png" width="900">
+![Dashboard](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/dashboard.png)
 
 ### 📈 Candlestick + VWAP Buy Signal Chart
-<img src="assets/chart.png" width="900">
+![Chart](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/chart.png)
 
 ### 🤖 AI Trading Analysis Panel
-<img src="assets/analysis.png" width="900">
+![Analysis](https://raw.githubusercontent.com/xxivk/ionet-ai-trader-dashboard/main/assets/analysis.png)
 
 ---
 
@@ -160,5 +160,3 @@ If this project helped you:
 ---
 
 ### Built by **Saad** ❤️ for the **IO Community** 💛
-
-```
