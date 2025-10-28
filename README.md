@@ -146,8 +146,8 @@ If this project helps you — show some love:
 * 🔧 Open PRs to improve the strategy or add indicators
 
 ---
+Built by Saad ❤️ for the IO Community 💛
 
-Built with ❤️ for the IO Community.
 
 ```
 
