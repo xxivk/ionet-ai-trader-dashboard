@@ -1,3 +1,5 @@
+
+
 ```markdown
 # 🤖 AI Crypto Trading Dashboard (Powered by IO.net Intelligence)
 
@@ -9,24 +11,39 @@ A real-time crypto market analytics dashboard that combines:
 
 This dashboard helps traders quickly evaluate market trends, identify potential entry signals, and receive AI-driven trade commentary in real time.
 
+---
+
+## 📸 Screenshots
+
+### 🏠 Dashboard Overview
+<img src="assets/dashboard.png" width="900">
+
+### 📈 Candlestick + VWAP Buy Signal Chart
+<img src="assets/chart.png" width="900">
+
+### 🤖 AI Trading Analysis Panel
+<img src="assets/analysis.png" width="900">
+
+---
 
 ## 🚀 Features
 
 | Feature | Description |
 |--------|-------------|
-| 📈 Live Candlestick Chart | Visualize real-time market movement using Plotly |
-| 🎯 VWAP Buy Signal Detection | Identifies potential long entries using candle structure + VWAP alignment |
-| 🧠 Multi-Model AI Analysis | Choose from 16+ advanced reasoning models hosted on IO.net Intelligence |
-| 🔄 Works With Any Pair | BTC, ETH, IO, BNB and more |
-| 🧩 Clean Streamlit UI | Simple, fast, mobile-ready dashboard |
-| 🔐 API Keys Stay Local | Your API keys remain securely in `.env` |
+| 📈 Real-Time Candlestick Chart | Plotly-based market visualization |
+| 🎯 VWAP Buy Signal Detection | Identifies momentum-based bullish entries |
+| 🧠 Multi-Model AI Analysis | Choose from multiple IO.net-hosted LLMs |
+| 🔄 Works With Any Cryptocurrency Pair | BTC, ETH, IO, BNB, and more |
+| 🧩 Streamlit UI | Clean, fast and intuitive interface |
+| 🔐 Local Key Security | `.env` file keeps your key private |
 
+---
 
-## 🧠 AI Model Support
+## 🧠 Supported AI Models
 
-Supports any model available in your **IO.net Intelligence account**, including:
+Supports any model available in your **IO.net Intelligence** account:
 
-````
+```
 
 deepseek-ai/DeepSeek-R1-0528
 meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
@@ -37,13 +54,13 @@ LLM360/K2-Think
 
 ````
 
-Add or remove models in `models.txt`.
+Modify `models.txt` to add or remove models.
 
 ---
 
 ## 📦 Installation
 
-### 1️⃣ Clone this repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/ai-trading-dashboard.git
 cd ai-trading-dashboard
@@ -55,15 +72,15 @@ cd ai-trading-dashboard
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Configure your `.env`
+### 3️⃣ Add your `.env` file
 
-Create `.env` file:
+Create a `.env` file in the project directory:
 
 ```
 IOINTELLIGENCE_API_KEY=your_io_intelligence_key_here
 ```
 
-> **Do not share or commit your `.env` file.**
+> **Do NOT expose or commit your `.env` file.**
 
 ### 4️⃣ Run the dashboard
 
@@ -71,7 +88,7 @@ IOINTELLIGENCE_API_KEY=your_io_intelligence_key_here
 streamlit run app.py
 ```
 
-Open in browser:
+Open in your browser:
 
 ```
 http://localhost:8501
@@ -88,60 +105,60 @@ Binance → OHLCV Data → VWAP + Candle Strength
                           ↓
            IO.net Intelligence Model
                           ↓
-             Trading Insight & Signals
+          AI Trading Insight & Interpretation
 ```
 
 ---
 
-## 🎯 Strategy (Buy Signal Logic)
+## 🎯 VWAP Strategy Logic
 
-A BUY signal triggers when:
+A **BUY** signal is triggered when:
 
-* Price closes **above VWAP**
-* Candle is **bullish and stronger than previous highs**
+* Price **closes above VWAP**
+* Candle is **bullish and strong** relative to previous highs
 * VWAP deviation is **between +0.25% and +1.50%**
 
-This approach attempts to catch **momentum-based trend continuation** entries.
+This aims to capture **trend continuation momentum**.
 
 ---
 
-## 🏗️ Project Structure
+## 🏗 Project Structure
 
 ```
-├── app.py                 # Streamlit UI dashboard
+├── app.py                 # Streamlit UI Dashboard
 ├── candle.py              # Market data + VWAP + signal logic
-├── io_net_client.py       # IO.net Intelligence API wrapper
-├── models.txt             # Available LLM model list
+├── io_net_client.py       # IO Intelligence API wrapper
+├── models.txt             # AI model list
+├── assets/                # UI screenshots & media
 ├── requirements.txt
-└── .env                   # Local API key config (not committed)
+└── .env                   # Local API key (not committed)
 ```
 
 ---
 
 ## 🌍 Join the IO.net Community
 
-Connect with builders, traders, GPU node operators, and researchers:
+| Platform       | Link                                                                                 |
+| -------------- | ------------------------------------------------------------------------------------ |
+| 💬 Discord     | [https://discord.com/invite/ionetofficial](https://discord.com/invite/ionetofficial) |
+| 🐦 Twitter / X | [https://twitter.com/ionet](https://twitter.com/ionet)                               |
+| 🌍 Telegram    | [http://t.me/io_net](http://t.me/io_net)                                             |
 
-| Platform           | Link                                                                                 |
-| ------------------ | ------------------------------------------------------------------------------------ |
-| 💬 **Discord**     | [https://discord.com/invite/ionetofficial](https://discord.com/invite/ionetofficial) |
-| 🐦 **Twitter / X** | [https://twitter.com/ionet](https://twitter.com/ionet)                               |
-| 🌍 **Telegram**    | [http://t.me/io_net](http://t.me/io_net)                                             |
-
-We share dashboards, model experiments, trading results, and GPU compute tips.
-Come build the future of decentralized AI with us 🚀
+We share dashboards, experiments, GPU compute guides, and decentralized AI research.
+Come build the future of open AI compute with us 🚀
 
 ---
 
-### ⭐ Support the Project
+## ⭐ Support the Project
 
-If this project helps you — show some love:
+If this project helped you:
 
-* ⭐ Star the GitHub repo
-* 🗣 Share your dashboard screenshots with the community
-* 🔧 Open PRs to improve the strategy or add indicators
+* ⭐ Star the GitHub repository
+* 🗣 Share your screenshots in the IO community
+* 🔧 Contribute improvements or new strategies
 
 ---
-Built by Saad ❤️ for the IO Community 💛
 
+### Built by **Saad** ❤️ for the **IO Community** 💛
 
+```
